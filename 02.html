@@ -1,0 +1,100 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>内容超域</title>
+	
+<style>
+	
+	body{
+		margin:5px auto; 
+		padding: 0px;
+	}
+	
+	#header{
+		background:#8884B4;
+		margin:5px auto 3px; 
+	}
+	
+	#nav{
+		background:#41AD38;
+		margin: 0px auto 3px;
+		margin-bottom: 3px;
+	}
+	
+	#article_left{
+		background:#63391D;
+		float: left;
+		margin: 0px auto 3px;
+	}
+	
+	#article_right{
+		background:#12A6C4;
+		float: right;
+		margin: 0px auto 3px;
+	}
+	
+	#footer{
+		background:#B49333;
+		clear: both;
+		margin: 0px auto 0px;
+	}
+	
+	
+</style>
+	
+	
+	
+	
+</head>
+
+<body id="body_container">
+	
+	<div id="header"></div>
+	<div id="nav"></div>
+	<div id="article_left"></div>
+	<div id="article_right"></div>
+	<div id="footer"></div>
+	
+	<button onClick="test()">点击</button>
+	
+	<script>
+		function test(){
+			var s_width = screen.width;
+			var s_height = screen.height;
+		
+			alert(s_width);
+			alert(s_height);
+		
+		}
+	
+//		var container = document.getElementById("body_container");
+//		var header = document.getElementById("header");
+//		var nav = document.getElementById("nav");
+//		var a_left = document.getElementById("article_left");
+//		var a_right = document.getElementById("article_right");
+//		var footer = document.getElementById("footer");
+//		
+//		container.style.width = header.style.width = s_width * 5 / 6 + "px";
+//		
+//		header.style.width = s_width * 5 / 6 + "px";
+//		header.style.height = s_height / 12 + "px";
+//		
+//		nav.style.width = s_width * 5 / 6 + "px";
+//		nav.style.height = s_height / 12 + "px";
+//		
+//		a_left.style.width = s_width * 5 / 9 + "px";
+//		a_left.style.height = s_height * 3 / 4 + "px";
+//		
+//		a_right.style.width = s_width * 5 / 18 - 3 + "px";
+//		a_right.style.height = s_height * 3 / 4 + "px";
+//		
+//		footer.style.width = s_width *5 / 6 + "px";
+//		footer.style.height = s_height / 12 + "px";
+//		
+		
+	</script>
+	
+	
+</body>
+</html>
